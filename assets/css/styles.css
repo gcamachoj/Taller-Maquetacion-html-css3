@@ -51,11 +51,11 @@ body{
 }
 
 @keyframes girar {
-    10% {
-        height: 100px;
+    from {
+        transform: rotate(0deg);
     }
-    100% {
-        height: 200px;
+    to {
+        transform: rotate(360deg);
     }
 }
 
