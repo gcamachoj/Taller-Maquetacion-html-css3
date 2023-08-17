@@ -5,7 +5,7 @@ body{
     
     /*FUENTES*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    -webkit-font-smoothing: antiaiased;
+    -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -moz-osx-font-smooting: antialiased;
   
@@ -24,8 +24,15 @@ body{
 .center {
     width: 75%;  /*tamaño en proporción al screen (pantalla)*/
     margin: 0px auto;  /*quita margenes verticales y automatiza para centrar por default margenes horizontales */
-
 }
+
+
+.clearfix{
+    /*LIMPIAR FLOTADOS */
+    clear:both;
+    float: none;
+}
+
 #logo {
     width: 30%;
     font-size: 30px;
@@ -38,6 +45,7 @@ body{
     float: left;  /* flota el objeto a la izq-*/
     height: 60px;
     margin-top: -10px;
+    
 }
 
 
@@ -52,3 +60,31 @@ body{
     float: right;
     font-size: 18px;
 }
+
+#menu ul{
+    line-height: 85px; /*ancho de renglon*/;
+    width: 60%;
+    float: right;
+    
+
+}
+
+#menu ul li { 
+    list-style: none; /*quita viñetas*/
+    height:40px;
+    display: inline-block;/* pasar el texto a linea*/
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#menu a{
+    text-decoration: none; /*quita subrayado*/
+    color: #444;
+    transition: 300ms all;
+}
+
+#menu a:hover{
+    color: #3cb2d3;
+}
+
+
