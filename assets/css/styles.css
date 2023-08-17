@@ -2,9 +2,13 @@ body{
     text-align:center;/*centra el texto del body*/
     margin: 0px;   /* Quita margenes externas */
     padding: 0px;   /*Quita márgenes internas al body*/
+    
+    /*FUENTES*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    -webkit-font-smoothing: antiliased;
-    -webkit-font-smoothing: 
+    -webkit-font-smoothing: antiaiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smooting: antialiased;
+  
 }
 
 #header {
@@ -26,13 +30,14 @@ body{
     width: 30%;
     font-size: 30px;
     float: left;
-
+    margin-top: 35px;
 }
 
 #logo img{
     display: block;  /* convierte el objeto en bloque para moverlo fácilmente.  */
     float: left;  /* flota el objeto a la izq-*/
     height: 60px;
+    margin-top: -10px;
 }
 
 
