@@ -2,6 +2,9 @@ body{
     text-align:center;/*centra el texto del body*/
     margin: 0px;   /* Quita margenes externas */
     padding: 0px;   /*Quita márgenes internas al body*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antiliased;
+    -webkit-font-smoothing: 
 }
 
 #header {
@@ -17,7 +20,7 @@ body{
 .center {
     width: 75%;  /*tamaño en proporción al screen (pantalla)*/
     margin: 0px auto;  /*quita margenes verticales y automatiza para centrar por default margenes horizontales */
-    
+
 }
 #logo {
     width: 30%;
@@ -38,4 +41,9 @@ body{
     margin: 0;
     float:left;
 
+}
+#menu{
+    width:70%;
+    float: right;
+    font-size: 18px;
 }
