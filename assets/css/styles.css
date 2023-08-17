@@ -38,6 +38,7 @@ body{
     font-size: 30px;
     float: left;
     margin-top: 35px;
+
 }
 
 #logo img{
@@ -45,14 +46,24 @@ body{
     float: left;  /* flota el objeto a la izq-*/
     height: 60px;
     margin-top: -10px;
-    
+    animation: girar infinite 30s linear;
+      
 }
 
+@keyframes girar {
+    10% {
+        height: 100px;
+    }
+    100% {
+        height: 200px;
+    }
+}
 
 #brand {
     display: block;
     margin: 0;
     float:left;
+    margin-left: 10px;
 
 }
 #menu{
