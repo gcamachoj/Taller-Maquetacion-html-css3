@@ -1,0 +1,41 @@
+body{
+    text-align:center;/*centra el texto del body*/
+    margin: 0px;   /* Quita margenes externas */
+    padding: 0px;   /*Quita márgenes internas al body*/
+}
+
+#header {
+    /*border: 1px solid black;*/
+    height: 120px;  /*altura */
+    width: 100%;        /*anchura*/
+    background: white;  /*color de fondo */
+    border-bottom: 1px solid #ccc; /* Borde inferior de encabezado */
+    border-top: 5px solid #61dafb;    /*borde superior*/
+
+}
+
+.center {
+    width: 75%;  /*tamaño en proporción al screen (pantalla)*/
+    margin: 0px auto;  /*quita margenes verticales y automatiza para centrar por default margenes horizontales */
+    
+}
+#logo {
+    width: 30%;
+    font-size: 30px;
+    float: left;
+
+}
+
+#logo img{
+    display: block;  /* convierte el objeto en bloque para moverlo fácilmente.  */
+    float: left;  /* flota el objeto a la izq-*/
+    height: 60px;
+}
+
+
+#brand {
+    display: block;
+    margin: 0;
+    float:left;
+
+}
