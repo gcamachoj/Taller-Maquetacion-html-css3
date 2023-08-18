@@ -102,7 +102,7 @@ body{
     background: #61dafb ;
     width: 100%;
     height: 350px;
-    line-height: 320px; /*tamaño de altura de linea*/
+    /*line-height: 320px; /*tamaño de altura de linea*/
     text-shadow: 0px 0px 5px #444;
     color: white;    
 
@@ -111,3 +111,33 @@ body{
     background: radial-gradient(circle, rgba(30,180,242,1) 0%, rgba(33,185,242,1) 12%, rgba(46,169,249,1) 41%, rgba(32,171,238,1) 48%, rgba(73,183,255,1) 68%, rgba(0,151,255,1) 100%);
 }
 
+#slider h1{/* ORGANIZAR TEXTO DENTRO DEL CUADRO AZUL*/
+    margin-top: 0.2px;
+    padding: 0px;
+    padding-top: 133px;
+    text-align: center;
+}
+
+.btn-white{
+    display: block;
+    background: white;
+    color: rgb(88,88,88);
+    padding: 10px;
+    width: 100px;
+    height: 35px;
+    margin: 0px auto;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-shadow: none;
+    text-decoration: none;
+    line-height: 35px;/* Altura o espacio vertical entre lineas de texto.*/
+    box-shadow: 0px 0px 5px rgb(88,88,88); 
+    margin-top: 40px;
+    border-radius: 4px;
+    transition: 300ms all;/*efecto */
+}
+
+.btn-white:hover{
+    background-color: #444;
+    color: white;
+}
