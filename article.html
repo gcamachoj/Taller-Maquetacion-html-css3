@@ -50,51 +50,37 @@
         </div>
     </header>
 
-    <div id="slider" class="slider-big">
-        <h1>Pagina creada en curso de React javascript con Victor Robles</h1>
-        <a href="#" class = "btn-white">Ir al blog</a>
-    </div>
+    
 
         <div class="center">
             <section id="content">
-                <h2 class = "subheader">Últimos artículos</h2>
-                
-                <script type="text/javascript">
-                    window.addEventListener("load", function(){
-                    var template = document.getElementById("article-template");
-                    
-                    
-                    var articles = document.getElementById("articles");
-                    for(i=1;i<=5; i++){
-                        var clonado = template.cloneNode(true);
-                        clonado.removeAttribute("id");
-                        var h2 = clonado.getElementsByTagName("h2")[0];//accede al primer elemento h2 del elemento clonado.
-                        h2.innerHTML = h2.textContent + ' ' + i;
-                       
-                        articles.appendChild(clonado);    
-                        }
-                    });
+                              
 
-                </script>
-
-                <!--Listado artículos-->
-                <div id="articles">
-                    <article class="article-item" id="article-template">
+                    <article class="article-item article-detail">
                         <div class="image-wrap">
                             <img src="https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539_1280.jpg" alt="Paisaje">
                         </div>
 
-                        <h2>Articulo de prueba</h2>
+                        <h1 class="subheader">Articulo de prueba</h1>
                         <span class="date">
                             Hac 5 minutos
                         </span>
-                        <a href="#">Leer más</a>
-                        
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque blandit dignissim lacus, iaculis dapibus ante lacinia at. Maecenas mattis ex sed consectetur tristique. Integer molestie, ipsum id luctus fermentum, nunc risus imperdiet est, eget feugiat ipsum elit vel mi. Donec at ante vel tortor vehicula lacinia. Praesent eget sem maximus, scelerisque quam non, posuere lorem. Duis a varius metus. Proin rutrum mi odio, non varius magna posuere ac. Proin felis risus, porttitor eu tincidunt sit amet, ornare et massa. Morbi et ultrices lacus. In ut ante viverra, aliquam eros sit amet, viverra nibh. Sed dictum sed nisl tempor bibendum. Morbi neque enim, faucibus dignissim mi eget, vehicula convallis lorem. Phasellus rutrum, neque nec porttitor maximus, eros erat placerat nibh, sed aliquam ligula nisl quis ligula. Nulla et velit facilisis, auctor metus ac, vestibulum lacus.
+                            </p>
+                            
+                            <p>
+                            Nulla feugiat placerat feugiat. Mauris quis felis luctus, fringilla elit a, scelerisque sem. Fusce blandit lobortis vulputate. Nulla a posuere ante. Aliquam vel tempus arcu. Vivamus facilisis nulla ac urna suscipit bibendum. Donec nec cursus ligula. Vivamus id cursus odio. Nullam maximus velit arcu.
+                            </p>
+                            
+                            <p>
+                                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla et sagittis leo, pharetra rutrum nulla. Morbi sagittis ultrices velit non dapibus. Quisque vitae dolor quis ex vulputate tincidunt sed ac ipsum. Praesent iaculis elementum risus, vitae auctor nunc suscipit at. Sed in semper dui. Aenean pellentesque viverra turpis, a consectetur justo. Nullam mattis dapibus erat ac mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc pharetra quam dui, sed consequat massa tristique eget.
+                            </p>                           
                         <div class="clearfix"></div>
                     </article>
 
-                    <!-- AÑADIR ARTICULOS VIA JS -->
-                </div>               
+            
+                     
             </section>
             
             

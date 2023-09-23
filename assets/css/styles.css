@@ -205,11 +205,11 @@ body{
 
 }
 
-.btn-succes{
+.btn-success{
     background: rgb(23,150,19);
 }
 
-.btn-succes:hover{
+.btn-success:hover{
     background: black;
 }
 
@@ -241,3 +241,72 @@ input[type="text"]:focus{
 
  }
 
+.article-item{
+    width:100%;
+    border-bottom: 3px solid #eee;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.article-item .image-wrap {
+    width: 130px;
+    height: 130px;
+    overflow: hidden; /* oculta lo que sobresale de la caja con los tamaños establecidos*/
+    float: left;
+    margin-right: 15px;
+    border: solid 1px #ccc;
+    }
+
+
+.article-item .image-wrap img{
+    height: 100%;
+    text-align: center;
+}
+
+.article-item h2{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 7px;
+}
+
+.article-item .date{
+display: block;
+width: 100%;
+color:rgb(122,122,122);
+}
+
+.article-item a{
+    display: block;
+    color: #444;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.article-item a:hover{
+    text-decoration: underline;
+}
+
+.subheader{
+    font-size: 38px;
+}
+
+.article-detail .image-wrap{
+    float:none;
+    width: 100%;
+    height: 300px;
+
+}
+
+.article-detail .image-wrap img{
+    width: 100%;
+    height: auto;
+}
+
+.article-detail .subheader{
+    margin-bottom:0px ;
+    border:none;
+    margin-top: 15px;
+
+}
